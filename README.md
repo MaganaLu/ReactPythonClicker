@@ -12,12 +12,11 @@ then react
 3. npm install parcel-plugin-transcrypt --save-dev
 
 then react libraries
-npm install react@16 react-dom@16
+1. npm install react@16 react-dom@16
+2. replace ./node_modules/parcel-plugin-transcrypt/asset.js with included asset.js file
 
-replace ./node_modules/parcel-plugin-transcrypt/asset.js with included asset.js file
-
-the start up parcel dev webserver 
-(venv) $ npx parcel --log-level 4 --no-cache index.html
+Then start up parcel dev webserver 
+1. (venv) $ npx parcel --log-level 4 --no-cache index.html
 
 app will be hosted at http://localhost:1234
 
