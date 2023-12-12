@@ -1,5 +1,6 @@
 # ReactPythonClicker
-Clicker game with react and python 
+Clicker game with react and python using pyreact.
+This was a project for fun to see how the react python wrapper worked. I also wanted to get more confortable using python. 
 
 must create a python virtual env
 1. python -m venv venv (Windows)
